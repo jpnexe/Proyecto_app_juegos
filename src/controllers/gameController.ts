@@ -1,6 +1,7 @@
 import type { ApiResponse } from '../types/api';
 import type { GameItem, GameCategory, GameScore, SubmitScoreDto } from '../types/game';
 import { validateGameId, validateScoreInput } from '../utils/validator';
+import { sanitizeTextInput } from '../utils/sanitizer';
 import * as gameService from '../services/gameService';
 
 export async function handleGetAllGames(): Promise<ApiResponse<GameItem[]>> {
@@ -74,7 +75,12 @@ export async function handleSubmitScore(dto: SubmitScoreDto): Promise<ApiRespons
       return { status: 404, success: false, data: null, error: `El juego ${dto.gameId} no existe` };
     }
 
-    const saved = await gameService.recordScore(dto);
+    const sanitizedDto: SubmitScoreDto = {
+      ...dto,
+      playerName: sanitizeTextInput(dto.playerName),
+    };
+
+    const saved = await gameService.recordScore(sanitizedDto);
     return {
       status: 201,
       success: true,

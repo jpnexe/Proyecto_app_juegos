@@ -1,12 +1,26 @@
 <!doctype html>
-<html lang="en">
+<html lang="es" class="dark">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>proyecto_video_juegos</title>
+    
+    <!-- SEO & Metadata -->
+    <title>RetroPlay Arcade • Videojuegos Clásicos en Línea</title>
+    <meta name="description" content="Plataforma web estática de videojuegos retro clásicos de los 80s y 90s con estética Y2K: Snake, Pong, Mario, Tetris, Space Invaders y más. Juega gratis en tu navegador sin registro." />
+    <meta name="keywords" content="juegos retro, videojuegos clasicos, snake, mario, pong, tetris, space invaders, arcade, y2k" />
+    <meta name="theme-color" content="#1A1A2E" />
+
+    <!-- Security Headers / Directives -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https://images.unsplash.com; connect-src 'self';" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
   </head>
-  <body>
+  <body class="bg-[#1A1A2E] text-[#F8F8FF] antialiased">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

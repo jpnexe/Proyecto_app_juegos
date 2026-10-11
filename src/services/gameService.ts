@@ -1,4 +1,4 @@
-import rawGames from '../content/games.json';
+import rawGames from '../content/games.json' with { type: 'json' };
 import type { GameItem, GameCategory, GameScore, SubmitScoreDto } from '../types/game';
 
 const LOCAL_STORAGE_SCORES_KEY = 'retroplay_scores_v1';
