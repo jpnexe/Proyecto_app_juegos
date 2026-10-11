@@ -1,0 +1,231 @@
+[
+  {
+    "id": "game-snake",
+    "title": "Snake Clásico (Culebrita)",
+    "slug": "snake",
+    "description": "Controla la serpiente retro, recolecta píxeles de energía y evita chocar contra los límites o contra tu propia cola.",
+    "category": "arcade",
+    "releaseYear": 1997,
+    "difficulty": "medium",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&auto=format&fit=crop&q=80",
+    "accentColor": "#7DF9FF",
+    "instructions": [
+      "Usa las flechas del teclado o los controles en pantalla.",
+      "Come los orbes brillantes para sumar 100 puntos y crecer.",
+      "No choques contra los bordes ni contra ti mismo."
+    ],
+    "controls": [
+      { "key": "Flechas / WASD", "action": "Mover serpiente" },
+      { "key": "Espacio / P", "action": "Pausar juego" }
+    ],
+    "playsCount": 4210,
+    "rating": 4.9,
+    "isPlayable": true
+  },
+  {
+    "id": "game-mario",
+    "title": "Super Mario Jump & Run",
+    "slug": "mario-runner",
+    "description": "Aventura de plataformas estilo 8-bit. Corre por el Reino Champiñón, salta obstáculos y junta monedas de oro.",
+    "category": "action",
+    "releaseYear": 1985,
+    "difficulty": "hard",
+    "thumbnail": "https://images.unsplash.com/photo-1566576912321-d58ddd7a6088?w=600&auto=format&fit=crop&q=80",
+    "accentColor": "#ffa857",
+    "instructions": [
+      "Avanza sorteando tuberías y criaturas enemigas.",
+      "Salta con precisión para alcanzar plataformas elevadas.",
+      "Recolecta monedas para multiplicar tu puntuación."
+    ],
+    "controls": [
+      { "key": "Flechas Izq / Der", "action": "Desplazarse" },
+      { "key": "Espacio / Flecha Arriba", "action": "Saltar" }
+    ],
+    "playsCount": 7890,
+    "rating": 5.0,
+    "isPlayable": true
+  },
+  {
+    "id": "game-pong",
+    "title": "Pong Arcade 1972",
+    "slug": "pong",
+    "description": "El pionero indiscutible de los videojuegos. Enfrenta a la IA en un duelo de reflejos con paletas y física acelerada.",
+    "category": "classic",
+    "releaseYear": 1972,
+    "difficulty": "easy",
+    "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&auto=format&fit=crop&q=80",
+    "accentColor": "#C0C0C0",
+    "instructions": [
+      "Mueve la paleta verticalmente para interceptar la bola.",
+      "Cada rebote incrementa la velocidad de la bola.",
+      "El primer jugador en anotar 5 puntos gana la partida."
+    ],
+    "controls": [
+      { "key": "W / S o Flechas", "action": "Mover paleta" },
+      { "key": "R", "action": "Reiniciar saque" }
+    ],
+    "playsCount": 3120,
+    "rating": 4.7,
+    "isPlayable": true
+  },
+  {
+    "id": "game-tetris",
+    "title": "Tetris Block Fall",
+    "slug": "tetris",
+    "description": "Alinea los tetrominós geométricos en caída libre, despeja líneas completas y desafía tu velocidad mental.",
+    "category": "puzzle",
+    "releaseYear": 1984,
+    "difficulty": "medium",
+    "thumbnail": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=600&auto=format&fit=crop&q=80",
+    "accentColor": "#3B82F6",
+    "instructions": [
+      "Encaja las piezas sin dejar huecos en la matriz.",
+      "Completar una fila entera la elimina y suma puntos.",
+      "El juego termina si la pila llega al borde superior."
+    ],
+    "controls": [
+      { "key": "Flechas Izq / Der", "action": "Mover pieza" },
+      { "key": "Flecha Arriba", "action": "Rotar pieza" },
+      { "key": "Flecha Abajo", "action": "Caída rápida" }
+    ],
+    "playsCount": 9450,
+    "rating": 4.9,
+    "isPlayable": true
+  },
+  {
+    "id": "game-space-invaders",
+    "title": "Space Invaders Galáctico",
+    "slug": "space-invaders",
+    "description": "Defiende la Tierra contra escuadrones de naves alienígenas en formación descendente con tu cañón láser móvil.",
+    "category": "action",
+    "releaseYear": 1978,
+    "difficulty": "hard",
+    "thumbnail": "https://images.unsplash.com/photo-1579373903781-fd5c0c30c4cd?w=600&auto=format&fit=crop&q=80",
+    "accentColor": "#7DF9FF",
+    "instructions": [
+      "Dispara a los alienígenas antes de que lleguen a la base.",
+      "Usa los escudos protectores para cubrirte de sus lásers.",
+      "Cuidado: a menor cantidad de enemigos, mayor es su velocidad."
+    ],
+    "controls": [
+      { "key": "Flechas A / D", "action": "Mover cañón" },
+      { "key": "Espacio", "action": "Disparar láser" }
+    ],
+    "playsCount": 6120,
+    "rating": 4.8,
+    "isPlayable": true
+  },
+  {
+    "id": "game-pacman",
+    "title": "Pac-Man Laberinto Neón",
+    "slug": "pacman",
+    "description": "Devora todos los puntos del laberinto mientras evitas a los fantasmas traviesos Blinky, Pinky, Inky y Clyde.",
+    "category": "arcade",
+    "releaseYear": 1980,
+    "difficulty": "medium",
+    "thumbnail": "https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?w=600&auto=format&fit=crop&q=80",
+    "accentColor": "#ffa857",
+    "instructions": [
+      "Come los puntos amarillos para sumar puntuación.",
+      "Ingiere los orbes de poder para perseguir temporalmente a los fantasmas.",
+      "Limpia el mapa completo para subir de nivel."
+    ],
+    "controls": [
+      { "key": "Flechas direccionales", "action": "Girar en intersecciones" }
+    ],
+    "playsCount": 8500,
+    "rating": 4.9,
+    "isPlayable": true
+  },
+  {
+    "id": "game-arkanoid",
+    "title": "Breakout Arkanoid",
+    "slug": "arkanoid",
+    "description": "Haz rebotar la esfera de energía con tu nave Vaus para demoler barreras de ladrillos de colores brillantes.",
+    "category": "arcade",
+    "releaseYear": 1986,
+    "difficulty": "medium",
+    "thumbnail": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=600&auto=format&fit=crop&q=80",
+    "accentColor": "#3B82F6",
+    "instructions": [
+      "Evita que la esfera caiga al vacío inferior.",
+      "Destruye todos los ladrillos para superar la fase.",
+      "El ángulo de rebote cambia según el punto de impacto."
+    ],
+    "controls": [
+      { "key": "Mouse / Flechas Izq-Der", "action": "Mover plataforma" }
+    ],
+    "playsCount": 4680,
+    "rating": 4.6,
+    "isPlayable": true
+  },
+  {
+    "id": "game-flappy",
+    "title": "Flappy Pixel Bird",
+    "slug": "flappy-bird",
+    "description": "El fenómeno arcade de precisión extrema. Bate las alas para pasar milimétricamente entre tuberías verdes.",
+    "category": "arcade",
+    "releaseYear": 2013,
+    "difficulty": "hard",
+    "thumbnail": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=600&auto=format&fit=crop&q=80",
+    "accentColor": "#d1fff0",
+    "instructions": [
+      "Toca o pulsa espacio para aletear y ganar altura.",
+      "La gravedad te empuja constantemente hacia abajo.",
+      "Cada tubería sorteada equivale a 1 punto."
+    ],
+    "controls": [
+      { "key": "Barra espaciadora / Clic", "action": "Aletear" }
+    ],
+    "playsCount": 11200,
+    "rating": 4.5,
+    "isPlayable": true
+  },
+  {
+    "id": "game-asteroids",
+    "title": "Asteroids Vector 1979",
+    "slug": "asteroids",
+    "description": "Pilota una nave triangular en el espacio profundo y fragmenta asteroides flotantes con disparos de precisión.",
+    "category": "action",
+    "releaseYear": 1979,
+    "difficulty": "hard",
+    "thumbnail": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80",
+    "accentColor": "#C0C0C0",
+    "instructions": [
+      "Gira e impulsa tu nave en entorno de inercia espacial.",
+      "Los asteroides grandes se dividen en rocas más pequeñas.",
+      "Aparecerán platillos voladores enemigos sorpresa."
+    ],
+    "controls": [
+      { "key": "Flechas Izq / Der", "action": "Rotar nave" },
+      { "key": "Flecha Arriba", "action": "Propulsión" },
+      { "key": "Espacio", "action": "Disparar" }
+    ],
+    "playsCount": 3890,
+    "rating": 4.7,
+    "isPlayable": true
+  },
+  {
+    "id": "game-minesweeper",
+    "title": "Buscaminas Retro 1990",
+    "slug": "minesweeper",
+    "description": "El legendario juego de lógica y deducción. Despeja las casillas vacías usando las pistas numéricas sin detonar minas.",
+    "category": "puzzle",
+    "releaseYear": 1990,
+    "difficulty": "medium",
+    "thumbnail": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?w=600&auto=format&fit=crop&q=80",
+    "accentColor": "#F8F8FF",
+    "instructions": [
+      "Los números indican cuántas minas tocan a esa celda.",
+      "Coloca banderas en las casillas sospechosas.",
+      "Destapa todas las celdas seguras para ganar."
+    ],
+    "controls": [
+      { "key": "Clic Izquierdo", "action": "Descubrir celda" },
+      { "key": "Clic Derecho", "action": "Marcar bandera" }
+    ],
+    "playsCount": 5420,
+    "rating": 4.8,
+    "isPlayable": true
+  }
+]
