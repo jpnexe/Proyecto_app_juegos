@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #3B82F6;
+  --color-secondary: #d1fff0;
+  --color-bg: #1A1A2E;
+  --color-chrome: #C0C0C0;
+  --color-accent: #ffa857;
+  --color-cyan: #7DF9FF;
+  --color-white: #F8F8FF;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background-image: 
+    radial-gradient(circle at 20% 15%, rgba(125, 249, 255, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 80% 85%, rgba(255, 168, 87, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.05) 0%, transparent 60%);
+}
+
+/* Y2K Chrome & Glass Utility Classes */
+.chrome-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #C0C0C0 35%, #7DF9FF 70%, #3B82F6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.y2k-glass {
+  background: rgba(26, 26, 46, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(192, 192, 192, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37), inset 0 1px 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+.y2k-btn-bubble {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 50%, rgba(0, 0, 0, 0.2) 100%), #3B82F6;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4), inset 0 2px 2px rgba(255, 255, 255, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.y2k-btn-bubble:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(125, 249, 255, 0.6), inset 0 2px 4px rgba(255, 255, 255, 0.7);
+}
+
+.y2k-btn-bubble:active {
+  transform: translateY(1px);
+}
